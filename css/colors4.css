@@ -51,7 +51,7 @@ a:focus,
 .services-item i,
 .client-info h4,
 blockquote {
-    color: #5f5f5f; /* Primary color */
+    color: #f9f5f5; /* Primary color */
 }
 
 
@@ -167,7 +167,7 @@ blockquote {
 
 footer,
 footer .copynote{
-    background: rgba(62,60,60, .97); /* Dark color/Footer color */
+    background: rgba(59, 96, 148, 0.97); /* Dark color/Footer color */
 }
 
 

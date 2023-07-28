@@ -30,7 +30,7 @@ Version: 1.0
 
 body,
 .services-item p {
-  color: #999;
+  color: rgb(2, 2, 2);
 }
 
 /* 2:   Primary color */
@@ -49,7 +49,7 @@ a:focus,
 .services-item i,
 .client-info h4,
 blockquote {
-  color: #74e6fc; /* Primary color */
+  color: #0e0e0f; /* Primary color */
 }
 
 .pace .pace-progress,
@@ -156,7 +156,7 @@ blockquote {
 
 footer,
 footer .copynote {
-  background: rgba(62, 51, 49, 0.97); /* Dark color/Footer color */
+  background: rgba(45, 81, 104, 0.97); /* Dark color/Footer color */
 }
 
 /* 8:   Text selection color */

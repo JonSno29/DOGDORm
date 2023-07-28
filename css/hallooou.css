@@ -110,7 +110,7 @@ body {
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: #999; /* Can be changed via colors.css */
+  color: rgb(9, 8, 8); /* Can be changed via colors.css */
   background-color: #fff;
 }
 
@@ -157,7 +157,7 @@ a:focus {
 }
 
 .gray {
-  color: #a5a5a5;
+  color: #050505;
 }
 
 .buffer-twenty {
@@ -597,7 +597,7 @@ blockquote span {
 .mouse {
   width: 25px;
   height: 45px;
-  border: 2px solid #fff;
+  border: 2px solid rgb(112, 171, 244);
   position: absolute;
   bottom: 40px;
   left: 50%;
@@ -610,7 +610,7 @@ blockquote span {
   position: absolute;
   height: 5px;
   width: 5px;
-  background-color: #fff;
+  background-color: rgb(149, 180, 248);
   border-radius: 100%;
   left: 50%;
   margin-left: -2.5px;
@@ -728,7 +728,10 @@ video {
 
 /*      5.2: About section
 /* ---------------------------------------------- */
-
+.about {
+  background-color: #bee3f8;
+  color: black;
+}
 .about h2,
 .about h3 {
   margin: 0 0 10px 0;
@@ -737,6 +740,10 @@ video {
 
 /*      5.3: Services section ("What we do")
 /* ---------------------------------------------- */
+.services {
+  background-color: #a0d6fa;
+}
+
 
 .services-item:before {
   content: "";
@@ -745,7 +752,7 @@ video {
   right: 0;
   border-width: 0 30px 30px 0;
   border-style: solid;
-  border-color: #fff #fff rgba(254, 82, 76, 1) rgba(254, 82, 76, 1); /* Primary color, can be changed via colors.css */
+  border-color: rgb(59, 190, 242) #fff rgba(254, 82, 76, 1) rgba(254, 82, 76, 1); /* Primary color, can be changed via colors.css */
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3),
     -1px 1px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
@@ -759,7 +766,7 @@ video {
 }
 
 .services-item {
-  background: #f9f9f9;
+  background: #40617e;
   padding: 30px 20px 20px;
   margin: 15px 0;
   position: relative;
@@ -783,7 +790,7 @@ video {
 .services-item p {
   padding: 0;
   margin: 0;
-  color: #999;
+  color: rgb(63, 102, 140);
   font-size: 16px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -851,7 +858,7 @@ video {
 
 .products {
   width: 100%;
-  background: #222;
+  background: rgb(136, 210, 247);
   background: url(../images/dogjumping.webp) 50% 0 no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -893,6 +900,10 @@ video {
 /*      5.5: Team section
 /* ---------------------------------------------- */
 
+.team {
+  background-color:  #a0d6fa;;
+
+}
 .team-member {
   margin: 15px 0;
   padding: 0;
@@ -958,7 +969,7 @@ video {
 .team-member figure:hover figcaption {
   visibility: visible;
   color: #fff;
-  background: #84c9f7; /* Primary color, can be changed via colors.css */
+  background: #565453; /* Primary color, can be changed via colors.css */
   height: 100%;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -997,8 +1008,8 @@ video {
 /*       5.6: Portfolio section
 /* ---------------------------------------------- */
 
-#project {
-  background: #222;
+.project {
+  background: rgb(123, 186, 245);
   background: url(../images/dogsidebside.jpeg) 50% 0 no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1400,11 +1411,7 @@ span.count-description {
   width: 100%;
   margin: 0;
   padding: 50px 0;
-  background: rgb(
-    236,
-    219,
-    219
-  ); /* Primary color, can be changed via colors.css */
+  background: rgb(77, 97, 135); /* Primary color, can be changed via colors.css */
   -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
@@ -1503,12 +1510,7 @@ span.count-description {
 /* ---------------------------------------------- */
 
 footer {
-  background: rgba(
-    54,
-    53,
-    54,
-    0.96
-  ); /* Dark color/Footer color, can be changed via colors.css */
+  background: rgba(59, 78, 135, 0.96); /* Dark color/Footer color, can be changed via colors.css */
   color: #fff;
   padding: 80px 0 0 0;
 }
