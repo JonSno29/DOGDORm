@@ -1008,27 +1008,28 @@ video {
 /*       5.6: Portfolio section
 /* ---------------------------------------------- */
 
-.project {
-  background: rgb(123, 186, 245);
-  background: url(../images/dogsidebside.jpeg) 50% 0 no-repeat scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+#portfolio{
+    background: #222;
+    background: url(../images/dogsidebside.jpeg) 50% 0 no-repeat scroll;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+            background-size: cover;
+         -o-background-size: cover;
 }
 
+
 .project-container {
-  margin-top: 50px;
-  position: relative;
+    margin-top: 50px;
+    position: relative;
 }
 
 .recent-project {
-  position: relative;
-  overflow: hidden;
-  margin: 5px;
+    position: relative;
+    overflow: hidden;
+    margin: 5px;
 }
 .recent-project img {
- width: 100%;
+    width: 100%;
 }
 .project-info {
   position: absolute;
@@ -1040,155 +1041,154 @@ video {
   text-align: center;
 }
 .project-info h3 {
-  line-height: 18px;
+    line-height: 18px;
 }
 ul.project-meta {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0; 
 }
 
-ul.project-meta li {
-  display: inline-block;
-  padding: 5px 10px;
-  border: 1px solid #fff;
+ul.project-meta li{
+    display: inline-block;
+    padding:5px 10px;
+    border: 1px solid #fff;
 }
 
-ul.project-meta li a {
-  display: inline-block;
-  color: #fff;
+ul.project-meta li a{
+    display: inline-block;
+    color: #fff;
 }
-ul.project-meta li a:hover {
-  color: #84c9f7;
+ul.project-meta li a:hover{
+    color: #f76758;
 }
 
 .full-project {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 16px 20px;
-  line-height: 18px;
-  font-size: 18px;
-  text-transform: capitalize;
-  background: #84c9f7; /* Primary color, can be changed via colors.css */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 16px 20px;
+    line-height: 18px;
+    font-size: 18px;
+    text-transform: capitalize;
+    background: rgba(254,82,76, 1); /* Primary color, can be changed via colors.css */
 }
 .full-project:hover {
-  background: #84c9f7; /* Hover color, can be changed via colors.css */
+    background: rgba(223,81,76, 1); /* Hover color, can be changed via colors.css */
 }
 .full-project a {
-  padding: 0px;
-  display: block;
-  color: #fff;
+    padding: 0px;
+    display: block;
+    color: #fff;
 }
 
-.full-project a:hover {
-  color: #fff;
+.full-project a:hover{
+    color:#fff;
 }
 
-.full-project a i {
-  font-size: 14px;
-  padding: 0 10px;
-  line-height: 20px;
+.full-project a i{
+    font-size: 14px;
+    padding: 0 10px;
+    line-height: 20px;
 }
 
 /* Overlay and hover effect
 /* ---------------------------------------------- */
 .recent-project::before {
-  content: "";
-  background: rgba(59, 59, 59, 0.8);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
+    content: "";
+    background: rgba(59,59,59,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: all 0.2s;
+       -moz-transition: all 0.2s;
+         -o-transition: all 0.2s;
+            transition: all 0.2s;
 }
 .recent-project:hover::before {
-  opacity: 1;
+    opacity: 1;
 }
 
 .project-info h3,
 ul.project-meta,
 .full-project {
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transform: translateY(100px);
-  -moz-transform: translateY(100px);
-  -ms-transform: translateY(100px);
-  -o-transform: translateY(100px);
-  transform: translateY(100px);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(100px);
+       -moz-transform: translateY(100px);
+        -ms-transform: translateY(100px);
+         -o-transform: translateY(100px);
+            transform: translateY(100px);
 }
 .project-info h3,
-ul.project-meta {
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
+ul.project-meta{
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
 }
 
 .full-project {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+       -moz-transition: all 0.5s;
+         -o-transition: all 0.5s;
+            transition: all 0.5s;
 }
 .recent-project:hover .project-info h3,
 .recent-project:hover ul.project-meta,
 .recent-project:hover .full-project {
-  opacity: 1;
-  visibility: visible;
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  -o-transform: translateY(0);
-  transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+       -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
 }
+
+
 
 /* Carousel navigation
 /* ---------------------------------------------- */
 
 .project-navigation .btn-next,
 .project-navigation .btn-prev {
-  position: absolute;
-  width: 40px;
-  height: 70px;
-  top: 40%;
-  margin-top: -40px;
-  background: rgba(59, 59, 59, 0.9);
-  color: #fff;
-  line-height: 80px;
-  text-align: center;
-  font-size: 18px;
-  opacity: 0;
-  z-index: 997;
-  cursor: pointer;
+    position: absolute;
+    width: 40px;
+    height: 70px;
+    top: 40%;
+    margin-top: -40px;
+    background: rgba(59,59,59,0.9);
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0;
+    z-index: 997;
+    cursor: pointer;
 }
 
 .project-navigation .btn-prev {
-  left: 0;
+    left: 0;
 }
 
 .project-navigation .btn-next {
-  right: 0;
+    right: 0;
 }
 
 .project-navigation a:hover {
-  width: 60px;
-  background: rgb(
-    244,
-    231,
-    231
-  ); /* Primary color, can be changed via colors.css */
+    width: 60px;
+    background: rgba(254,82,76, 1); /* Primary color, can be changed via colors.css */
 }
 
 .project-container:hover .project-navigation .btn-prev,
 .project-container:hover .project-navigation .btn-next {
-  opacity: 1;
+    opacity: 1;
 }
+
 
 /*       5.7: Clients section
 /* ---------------------------------------------- */
