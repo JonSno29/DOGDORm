@@ -1866,7 +1866,7 @@ footer .social a {
         background: url(../images/youtube-video-cover.jpg) #000 no-repeat center center fixed;
     }*/
     .html5-video-container {
-      background: url(videoURL:https://youtu.be/SqmGoa3dpSM) no-repeat bottom center scroll;
+      background: url('videoURL:https://youtu.be/SqmGoa3dpSM') no-repeat bottom center scroll;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover;
