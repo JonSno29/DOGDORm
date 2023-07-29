@@ -575,7 +575,7 @@ blockquote span {
   ); /* Primary color, can be changed via colors.css */
 }
 
-#parallax-slide {
+.parallax-slide {
   background: url(../images/dogswingif.gif) 50% 0 no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1008,7 +1008,7 @@ video {
 /*       5.6: Portfolio section
 /* ---------------------------------------------- */
 
-#portfolio {
+.project {
   background: rgb(123, 186, 245);
   background: url(../images/dogsidebside.jpeg) 50% 0 no-repeat scroll;
   -webkit-background-size: cover;
@@ -1866,7 +1866,7 @@ footer .social a {
         background: url(../images/youtube-video-cover.jpg) #000 no-repeat center center fixed;
     }*/
     .html5-video-container {
-      background: url(../images/dozendogs.jpeg) no-repeat bottom center scroll;
+      background: url(videoURL:https://youtu.be/SqmGoa3dpSM) no-repeat bottom center scroll;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover;
