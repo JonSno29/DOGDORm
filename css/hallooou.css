@@ -370,13 +370,13 @@ blockquote span {
   -webkit-transform: translateY(8px) translateX(0) rotate(45deg);
   -ms-transform: translateY(8px) translateX(0) rotate(45deg);
   transform: translateY(8px) translateX(0) rotate(45deg);
-  background: rgb(10, 10, 10);
+  background: rgb(242, 2, 2);
 }
 
 /* Set the middle hamburger bar's opacity to 0  */
 .button_container.active .middle {
   opacity: 0;
-  background: rgb(10, 9, 9);
+  background: rgb(249, 247, 247);
 }
 
 /* Animate the bottom hamburger bar */
@@ -384,11 +384,11 @@ blockquote span {
   -webkit-transform: translateY(-8px) translateX(0) rotate(-45deg);
   -ms-transform: translateY(-8px) translateX(0) rotate(-45deg);
   transform: translateY(-8px) translateX(0) rotate(-45deg);
-  background: rgb(12, 12, 12);
+  background: rgb(7, 10, 183);
 }
 
 .button_container span {
-  background: rgb(9, 9, 9);
+  background: rgb(253, 252, 252);
   border: none;
   height: 4px;
   width: 100%;
