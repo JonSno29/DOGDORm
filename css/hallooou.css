@@ -277,6 +277,7 @@ blockquote span {
 /* ---------------------------------------------- */
 
 .navbar-custom {
+  background-color: #7db7f2;
   margin-bottom: 0;
   text-transform: none;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -287,12 +288,7 @@ blockquote span {
 }
 
 .navbar-custom.top-nav-collapse {
-  background: rgba(
-    94,
-    209,
-    247,
-    0.9
-  ); /* Primary color, can be changed via colors.css */
+  background: rgba(29, 77, 149, 0.9); /* Primary color, can be changed via colors.css */
 }
 
 .navbar-custom .navbar-brand {
@@ -323,7 +319,7 @@ blockquote span {
 }
 
 .navbar-custom a {
-  color: rgb(88, 231, 247); /* Primary color, can be changed via colors.css */
+  color: rgb(244, 49, 227); /* Primary color, can be changed via colors.css */
 }
 
 .navbar-custom .nav li a {
@@ -363,7 +359,7 @@ blockquote span {
   margin-top: 14px;
   height: 28px;
   width: 28px;
-  cursor: pointer;
+  cursor: pointer ;
   z-index: 999;
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
@@ -374,13 +370,13 @@ blockquote span {
   -webkit-transform: translateY(8px) translateX(0) rotate(45deg);
   -ms-transform: translateY(8px) translateX(0) rotate(45deg);
   transform: translateY(8px) translateX(0) rotate(45deg);
-  background: #fff;
+  background: rgb(10, 10, 10);
 }
 
 /* Set the middle hamburger bar's opacity to 0  */
 .button_container.active .middle {
   opacity: 0;
-  background: #fff;
+  background: rgb(10, 9, 9);
 }
 
 /* Animate the bottom hamburger bar */
@@ -388,11 +384,11 @@ blockquote span {
   -webkit-transform: translateY(-8px) translateX(0) rotate(-45deg);
   -ms-transform: translateY(-8px) translateX(0) rotate(-45deg);
   transform: translateY(-8px) translateX(0) rotate(-45deg);
-  background: rgb(132, 217, 243);
+  background: rgb(12, 12, 12);
 }
 
 .button_container span {
-  background: #fff;
+  background: rgb(9, 9, 9);
   border: none;
   height: 4px;
   width: 100%;
@@ -416,11 +412,7 @@ blockquote span {
 .overlay {
   position: fixed;
   display: block;
-  background: rgb(
-    113,
-    233,
-    237
-  ); /* Primary color, can be changed via colors.css */
+  background: rgb(9, 9, 9); /* Primary color, can be changed via colors.css */
   top: 0;
   border: 0;
   left: 0;
@@ -492,7 +484,7 @@ blockquote span {
 .overlay ul li a {
   display: block;
   position: relative;
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   overflow: hidden;
 }
@@ -511,7 +503,7 @@ blockquote span {
   left: 50%;
   width: 0%;
   height: 2px;
-  background: #fff;
+  background: rgb(8, 7, 7);
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -528,7 +520,7 @@ blockquote span {
 .intro-carousel {
   width: 100%;
   /*height: 100%;*/
-  color: #fff;
+  color: rgb(4, 4, 4);
   background: #222;
 }
 
@@ -567,12 +559,7 @@ blockquote span {
 
 .carousel-control.left:hover,
 .carousel-control.right:hover {
-  background: rgba(
-    55,
-    232,
-    251,
-    0.9
-  ); /* Primary color, can be changed via colors.css */
+  background: rgba(52, 78, 157, 0.9); /* Primary color, can be changed via colors.css */
 }
 
 .parallax-slide {
@@ -597,7 +584,7 @@ blockquote span {
 .mouse {
   width: 25px;
   height: 45px;
-  border: 2px solid rgb(112, 171, 244);
+  border: 2px solid rgb(19, 45, 77);
   position: absolute;
   bottom: 40px;
   left: 50%;
@@ -610,7 +597,7 @@ blockquote span {
   position: absolute;
   height: 5px;
   width: 5px;
-  background-color: rgb(149, 180, 248);
+  background-color: rgb(25, 47, 95);
   border-radius: 100%;
   left: 50%;
   margin-left: -2.5px;
@@ -729,7 +716,7 @@ video {
 /*      5.2: About section
 /* ---------------------------------------------- */
 .about {
-  background-color: #bee3f8;
+  background-color: #cbcfd1;
   color: black;
 }
 .about h2,
@@ -741,7 +728,7 @@ video {
 /*      5.3: Services section ("What we do")
 /* ---------------------------------------------- */
 .services {
-  background-color: #a0d6fa;
+  background-color: #f6f8fa;
 }
 
 
@@ -752,10 +739,10 @@ video {
   right: 0;
   border-width: 0 30px 30px 0;
   border-style: solid;
-  border-color: rgb(59, 190, 242) #fff rgba(254, 82, 76, 1) rgba(254, 82, 76, 1); /* Primary color, can be changed via colors.css */
+  border-color: rgb(59, 190, 242) rgb(221, 218, 218) rgba(254, 82, 76, 1) rgba(254, 82, 76, 1); /* Primary color, can be changed via colors.css */
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3),
     -1px 1px 1px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 1px rgba(125, 123, 123, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
   -webkit-transition: border-color 0.2s ease-in-out;
   -moz-transition: border-color 0.2s ease-in-out;
@@ -766,7 +753,7 @@ video {
 }
 
 .services-item {
-  background: #40617e;
+  background: #6497c4;
   padding: 30px 20px 20px;
   margin: 15px 0;
   position: relative;
@@ -859,7 +846,7 @@ video {
 .products {
   width: 100%;
   background: rgb(136, 210, 247);
-  background: url(../images/dogjumping.webp) 50% 0 no-repeat scroll;
+  background: url() 50% 0 no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -876,7 +863,7 @@ video {
   margin: 0 0 22px 0;
   min-width: 80px;
   color: #fff;
-  background: #84c9f7; /* Primary color, can be changed via colors.css */
+  background: #315268; /* Primary color, can be changed via colors.css */
   text-align: center;
   border-radius: 50px;
   width: 80px;
@@ -901,7 +888,7 @@ video {
 /* ---------------------------------------------- */
 
 .team {
-  background-color:  #a0d6fa;;
+  background-color:  #def0fb;;
 
 }
 .team-member {
@@ -969,7 +956,7 @@ video {
 .team-member figure:hover figcaption {
   visibility: visible;
   color: #fff;
-  background: #565453; /* Primary color, can be changed via colors.css */
+  background : #333232; /* Primary color, can be changed via colors.css */
   height: 100%;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -978,7 +965,7 @@ video {
 }
 
 .team-member figure:hover figcaption ul li a:hover {
-  color: rgba(49, 49, 49, 0.97);
+  color: rgba(158, 152, 152, 0.97);
 }
 
 .team-member figure img {
@@ -1317,11 +1304,11 @@ ul.project-meta{
 .form-alerts .alert.alert-success,
 .form-alerts .alert.alert-danger {
   color: #fff;
-  background: #85ceab;
+  background: #3a9d6d;
 }
 
 .form-alerts .alert.alert-danger {
-  background: #84c9f7;
+  background: #163d57;
 }
 
 /* Google Map
@@ -1485,7 +1472,7 @@ span.count-description {
 }
 
 .client-info h4 {
-  color: #84c9f7; /* Primary color, can be changed via colors.css */
+  color: #0b0b0b; /* Primary color, can be changed via colors.css */
   margin: 10px 0 0 0;
   padding: 0;
 }
@@ -1583,8 +1570,8 @@ footer .social a {
   display: inline-block;
   padding: 5px 15px;
   color: #fff;
-  border: 1px solid #84c9f7;
-  background: #84c9f7; /* Primary color, can be changed via colors.css */
+  border: 1px solid #143952;
+  background: #0d2637; /* Primary color, can be changed via colors.css */
   font-size: 30px;
 }
 
@@ -1592,7 +1579,7 @@ footer .social a {
   border: 1px solid #fff; /* Hover border color, can be changed via colors.css */
   outline: 0;
   color: #fff;
-  background: #84c9f7; /* Hover color, can be changed via colors.css */
+  background: #083451; /* Hover color, can be changed via colors.css */
 }
 
 /* 11.  CSS3 Animations
@@ -1665,7 +1652,7 @@ footer .social a {
 .btn-default {
   color: #fff;
   border: 1px solid #84c9f7; /* Primary color, can be changed via colors.css */
-  background: #84c9f7; /* Primary color, can be changed via colors.css */
+  background: #0b3b5c; /* Primary color, can be changed via colors.css */
 }
 
 .btn-default:hover,
@@ -1675,7 +1662,7 @@ footer .social a {
   border: 1px solid #fff; /* Hover border color, can be changed via colors.css */
   outline: 0;
   color: #fff;
-  background: #84c9f7; /* Hover color, can be changed via colors.css */
+  background: #0c0d0e; /* Hover color, can be changed via colors.css */
 }
 
 .btn-outlined {
@@ -1704,7 +1691,7 @@ footer .social a {
 .btn-overcolor {
   border: 1px solid rgba(255, 255, 255, 1);
   color: #fff;
-  background: #84c9f7; /* Primary color, can be changed via colors.css */
+  background: #092a3f; /* Primary color, can be changed via colors.css */
 }
 
 .btn-lg {
@@ -1713,13 +1700,14 @@ footer .social a {
 
 .circle {
   padding: 7px;
-  border: 2px solid #fff;
+  border: 2px solid rgb(67, 116, 195);
   border-radius: 50%;
   width: 60px;
   height: 60px;
 }
 
 .squared {
+  background-color: #0c0d0e;
   padding: 10px;
   width: 60px;
   height: 60px;
@@ -1824,7 +1812,7 @@ footer .social a {
     }
 
     .navbar-custom a {
-      color: #84c9f7;
+      color: #030303;
       color: #fff;
     }
 
@@ -1922,7 +1910,7 @@ footer .social a {
     text-shadow: none;
     background: #fcfcfc;
     color: #fff;
-    background: #84c9f7;
+    background: #205679;
   }
 
   img::selection {
@@ -1934,7 +1922,7 @@ footer .social a {
   }
 
   body {
-    color: #84c9f7;
+    color: #3a576a;
   }
 
   /* Debug styles (remove before exporting for production)

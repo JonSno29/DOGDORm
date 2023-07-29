@@ -66,7 +66,7 @@ blockquote {
 .recent-project-carousel.owl-theme .owl-controls .owl-page span,
 .scroll-top a:link,
 .scroll-top a:visited {
-  background: #74e6fc; /* Primary color */
+  background: #2a64a5; /* Primary color */
 }
 
 .services-item:before {
@@ -96,7 +96,7 @@ blockquote {
 .btn-overcolor:focus,
 .scroll-top a:hover {
   border: 1px solid #74e6fc; /* Hover color */
-  background: #74e6fc; /* Hover color */
+  background: #7fb2ed; /* Hover color */
 }
 
 .full-project:hover {
