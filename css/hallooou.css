@@ -111,7 +111,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: rgb(9, 8, 8); /* Can be changed via colors.css */
-  background-color: #045781;
+  background-color: #f2f6f8;
 }
 
 h1,
@@ -716,7 +716,7 @@ video {
 /*      5.2: About section
 /* ---------------------------------------------- */
 .about {
-  background-color: #045781;
+  background-color: #cbe0eb;
   color: rgb(78, 91, 186);
 }
 .about h2,
@@ -998,7 +998,7 @@ video {
 
 #portfolio{
     background: #222;
-    background color: #000;: url() 50% 0 no-repeat scroll;
+    background : #000; 
     -webkit-background-size: cover;
        -moz-background-size: cover;
             background-size: cover;
@@ -1225,8 +1225,9 @@ ul.project-meta{
 /*       5.8: Contact section
 /* ---------------------------------------------- */
 
-.contact-form,
+
 .contact-address {
+  
   padding-top: 60px;
 }
 

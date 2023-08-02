@@ -156,14 +156,14 @@ blockquote {
 
 footer,
 footer .copynote {
-  background: black; /* Dark color/Footer color */
+  background: rgb(1, 1, 1); /* Dark color/Footer color */
 }
 
 /* 8:   Text selection color */
 /* ---------------------------------------------- */
 
 ::-moz-selection {
-  background: rgba(10, 10, 10, 0.7); /* RGBA of Primary color - opacity .7 */
+  background: rgba(1, 1, 1, 0.7); /* RGBA of Primary color - opacity .7 */
 }
 
 ::selection {
