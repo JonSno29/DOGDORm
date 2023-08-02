@@ -699,7 +699,7 @@ video#html5-video {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(../images/dogs-playing-poker.jpeg) no-repeat bottom
+  background: url() no-repeat bottom
     center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -846,7 +846,7 @@ video {
 .products {
   width: 100%;
   background: #045781;
-  background: url() 50% 0 no-repeat scroll;
+  background: url(../images/dogs-playing-poker.jpeg) 50% 0 no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -909,6 +909,7 @@ video {
 
 .team-member figcaption p {
   font-size: 16px;
+  color: black;
 }
 
 .team-member figcaption ul {
@@ -997,7 +998,7 @@ video {
 
 #portfolio{
     background: #222;
-    background: url(../images/dogsidebside.jpeg) 50% 0 no-repeat scroll;
+    background color: #000;: url() 50% 0 no-repeat scroll;
     -webkit-background-size: cover;
        -moz-background-size: cover;
             background-size: cover;
