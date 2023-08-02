@@ -111,7 +111,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   color: rgb(9, 8, 8); /* Can be changed via colors.css */
-  background-color: #fff;
+  background-color: #045781;
 }
 
 h1,
@@ -136,7 +136,7 @@ p {
 }
 
 a {
-  color: #fff;
+  color: rgb(246, 248, 250);
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -153,7 +153,7 @@ a:focus {
 }
 
 .white {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .gray {
@@ -388,7 +388,7 @@ blockquote span {
 }
 
 .button_container span {
-  background: rgb(253, 252, 252);
+  background: rgb(249, 244, 244);
   border: none;
   height: 4px;
   width: 100%;
@@ -412,7 +412,7 @@ blockquote span {
 .overlay {
   position: fixed;
   display: block;
-  background: rgb(9, 9, 9); /* Primary color, can be changed via colors.css */
+  background: rgb(2, 2, 2); /* Primary color, can be changed via colors.css */
   top: 0;
   border: 0;
   left: 0;
@@ -562,7 +562,7 @@ blockquote span {
   background: rgba(52, 78, 157, 0.9); /* Primary color, can be changed via colors.css */
 }
 
-.parallax-slide {
+#parallax-slide {
   background: url(../images/dogswingif.gif) 50% 0 no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -574,7 +574,7 @@ blockquote span {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: #000; /* Set to black, can be changed via colors.css */
+  background: rgb(3, 3, 3); /* Set to black, can be changed via colors.css */
   opacity: 0.5;
   left: 0;
   top: 0;
@@ -716,8 +716,8 @@ video {
 /*      5.2: About section
 /* ---------------------------------------------- */
 .about {
-  background-color: #cbcfd1;
-  color: black;
+  background-color: #045781;
+  color: rgb(78, 91, 186);
 }
 .about h2,
 .about h3 {
@@ -728,7 +728,7 @@ video {
 /*      5.3: Services section ("What we do")
 /* ---------------------------------------------- */
 .services {
-  background-color: #f6f8fa;
+  background-color: #045781;
 }
 
 
@@ -757,7 +757,7 @@ video {
   padding: 30px 20px 20px;
   margin: 15px 0;
   position: relative;
-  color: #fff;
+  color: rgb(78, 194, 244);
   overflow: hidden;
   -webkit-transition: background 0.5s ease-in-out;
   -moz-transition: background 0.5s ease-in-out;
@@ -845,7 +845,7 @@ video {
 
 .products {
   width: 100%;
-  background: rgb(136, 210, 247);
+  background: #045781;
   background: url() 50% 0 no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -854,7 +854,7 @@ video {
 }
 
 .products-container p {
-  color: #fff;
+  color: rgb(163, 203, 244);
 }
 
 .products-container span.icon {
@@ -862,8 +862,8 @@ video {
   padding: 18px;
   margin: 0 0 22px 0;
   min-width: 80px;
-  color: #fff;
-  background: #315268; /* Primary color, can be changed via colors.css */
+  color: rgb(245, 245, 246);
+  background: #3f77a2; /* Primary color, can be changed via colors.css */
   text-align: center;
   border-radius: 50px;
   width: 80px;
@@ -888,7 +888,7 @@ video {
 /* ---------------------------------------------- */
 
 .team {
-  background-color:  #def0fb;;
+  background-color:  #045781;
 
 }
 .team-member {
@@ -955,8 +955,8 @@ video {
 
 .team-member figure:hover figcaption {
   visibility: visible;
-  color: #fff;
-  background : #333232; /* Primary color, can be changed via colors.css */
+  color: rgb(9, 8, 8);
+  background : rgba(182, 233, 247, 0.9); /* Primary color, can be changed via colors.css */
   height: 100%;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1181,7 +1181,7 @@ ul.project-meta{
 /* ---------------------------------------------- */
 
 .our-clients {
-  background-color: rgb(173, 219, 247); /* Primary color, can be changed via colors.css */
+  background-color: #045781; /* Primary color, can be changed via colors.css */
 }
 
 .our-clients h2 {
@@ -1497,7 +1497,7 @@ span.count-description {
 /* ---------------------------------------------- */
 
 footer {
-  background: rgba(59, 78, 135, 0.96); /* Dark color/Footer color, can be changed via colors.css */
+  background:#045781; /* Dark color/Footer color, can be changed via colors.css */
   color: #fff;
   padding: 80px 0 0 0;
 }
@@ -1540,12 +1540,7 @@ footer ul.twitter-entries li span {
 footer .copynote {
   padding: 20px 0;
   margin-top: 40px;
-  background: rgba(
-    54,
-    53,
-    54,
-    1
-  ); /* Dark color/Footer color, can be changed via colors.css */
+  background: rgb(10, 0, 10); /* Dark color/Footer color, can be changed via colors.css */
 }
 
 footer .segment {
@@ -1812,7 +1807,7 @@ footer .social a {
     }
 
     .navbar-custom a {
-      color: #030303;
+      color: #f9f2f2;
       color: #fff;
     }
 
@@ -1901,7 +1896,7 @@ footer .social a {
 /* ---------------------------------------------- */
   ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
+    background: #045781;
     color: #fff;
     background: #84c9f7;
   }
@@ -1922,7 +1917,7 @@ footer .social a {
   }
 
   body {
-    color: #3a576a;
+    color: #045781;
   }
 
   /* Debug styles (remove before exporting for production)

@@ -30,7 +30,7 @@ Version: 1.0
 
 body,
 .services-item p {
-  color: rgb(2, 2, 2);
+  color: rgb(247, 241, 241);
 }
 
 /* 2:   Primary color */
@@ -49,7 +49,7 @@ a:focus,
 .services-item i,
 .client-info h4,
 blockquote {
-  color: #f7f7fa; /* Primary color */
+  color: #f8f2f2; /* Primary color */
 }
 
 .pace .pace-progress,
@@ -66,7 +66,7 @@ blockquote {
 .recent-project-carousel.owl-theme .owl-controls .owl-page span,
 .scroll-top a:link,
 .scroll-top a:visited {
-  background: #2a64a5; /* Primary color */
+  background: #045781; /* Primary color */
 }
 
 .services-item:before {
@@ -111,7 +111,7 @@ blockquote {
 /* ---------------------------------------------- */
 
 .our-clients {
-  background: #2c5a71; /* Secondary color */
+  background: #045781; /* Secondary color */
 }
 
 .btn-outlined {
@@ -129,7 +129,7 @@ blockquote {
 /* ---------------------------------------------- */
 
 .overlay-detail {
-  background: #000; /* optional color for overlay */
+  background: rgb(244, 246, 246); /* optional color for overlay */
 }
 
 /* 6:   Colors with opacity - Set RGBA by generating values here--> http://hex2rgba.devoth.com/  */
@@ -156,14 +156,14 @@ blockquote {
 
 footer,
 footer .copynote {
-  background: rgba(45, 81, 104, 0.97); /* Dark color/Footer color */
+  background: black; /* Dark color/Footer color */
 }
 
 /* 8:   Text selection color */
 /* ---------------------------------------------- */
 
 ::-moz-selection {
-  background: rgba(152, 219, 249, 0.7); /* RGBA of Primary color - opacity .7 */
+  background: rgba(10, 10, 10, 0.7); /* RGBA of Primary color - opacity .7 */
 }
 
 ::selection {
