@@ -1234,6 +1234,7 @@ ul.project-meta{
 .contact-form .form-group {
   padding: 5px 0;
   min-height: 100%;
+  align-items: center;
 }
 
 .contact-form .form-group label {

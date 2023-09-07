@@ -1,9 +1,4 @@
-/*
-    Template: Hallooou HTML5 Responsive template
-    Author: Mauritius D'Silva <hello@mauritiusdsilva.com>
-    Theme URI: http://www.mauritiusdsilva.com/themes/hallooou
-    Version: 1.0
-*/
+
 
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function () {
